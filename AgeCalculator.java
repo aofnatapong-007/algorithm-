@@ -5,7 +5,7 @@ public class AgeCalculator {
         Scanner scanner = new Scanner(System.in);
 
         // รับปีเกิดจากผู้ใช้
-        System.out.print("กรุณาใส่ปีเกิดของคุณ: ");
+        System.out.print("e: ");
         int birthYear = scanner.nextInt();
 
         // กำหนดปีปัจจุบัน (2025)
@@ -15,6 +15,6 @@ public class AgeCalculator {
         int age = currentYear - birthYear;
 
         // แสดงผลลัพธ์
-        System.out.println("คุณอายุ " + age + " ปี");
+        System.out.println("e " + age + " y");
     }
 }
