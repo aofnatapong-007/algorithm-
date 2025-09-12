@@ -13,10 +13,10 @@ public class BMICalculator {
         double height = scanner.nextDouble();
 
         // คำนวณ BMI
-        double bmi = weight / (height * height);
+        double bmi = (weight) / (height * height);
 
         // แสดงผลลัพธ์
-        System.out.printf("ค่า BMI ของคุณคือ: %.2f\n", bmi);
+        System.out.printf("ค่า BMR ของคุณคือ: %.2f\n", bmr);
 
         scanner.close();
     }
